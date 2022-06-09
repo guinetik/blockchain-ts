@@ -1,0 +1,7 @@
+export enum TransactionStatus {
+    EMITTED="EMITTED",
+    PROCESSING="PROCESSING",
+    COMMITTED="COMMITTED",
+    INVALID="INVALID",
+    ERROR="ERROR"
+}
